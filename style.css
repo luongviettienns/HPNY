@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 10px #ff0, 0 0 20px #ff0;
+}
+#countdown {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffcc00;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px #ffcc00, 0 0 45px #ffcc00;
+    transition: opacity 0.5s ease;
+}
